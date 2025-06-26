@@ -82,14 +82,7 @@ As a business analyst the first step would be to gather all the requirements nec
 
 Documentation is the most critical part of a project development as it is the foundation of all further project deliverables describing what inputs and outputs are associated with each process function. 
 
-I have created a Business Requirement documentation for our business case as shown below. (PS: Names are changed due to confidentiality issues).
-
-<p align="center">
-  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/BRD-Churn.png" width="1050" title ="Business Requirement Document">
-  <em>Business Requirement Document</em>
-</p>
-
-[(Back to top)](#table-of-contents)
+I have created a Business Requirement documentation for our business case.
 
 
 ## Data Summary and Exploratory Analysis

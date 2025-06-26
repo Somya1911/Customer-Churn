@@ -433,7 +433,7 @@ The '_Ask a question_' visual comes in handy during a business evaluation meetin
 Since not every visual can be depicted in a limited-size dashboard, the '_Ask a question_' visual develops the necessary graph as and when it is needed.
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/aqadb.png" width="1050" title="Ask a Question visual">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/aqadb.png" width="1050" title="Ask a Question visual">
   <em>Ask a Question visual</em>
 </p>
 

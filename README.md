@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/Customer%20Churn.png" width="1250" height ="650">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/Customer%20Churn.png" width="1250" height ="650">
 </p>
 
 # Customer-Churn-Analysis
@@ -13,7 +13,7 @@
 
 The end goal is to create a business solution report satisfying all the demands of the client (as per the specified acceptance criteria) mentioned in the business request document. Here's a glimpse of the final report.
 
-![](https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/Project_Demo.gif)
+![](https://github.com/Somya1911/Customer-Churn/blob/main/Project_Demo.gif)
 <p align="center">
   <em>Business Solution Report</em>
 </p
@@ -85,7 +85,7 @@ Documentation is the most critical part of a project development as it is the fo
 I have created a Business Requirement documentation for our business case as shown below. (PS: Names are changed due to confidentiality issues).
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/BRD-Churn.png" width="1050" title ="Business Requirement Document">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/BRD-Churn.png" width="1050" title ="Business Requirement Document">
   <em>Business Requirement Document</em>
 </p>
 
@@ -118,7 +118,7 @@ The steps involved in Data Pre Processing are:
 2. **Data Validation**: We need to check the data types of each column and make sure they are compatible with our business understanding.
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/data_load.png" width="1050" title="Data Connected to Power BI">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/data_load.png" width="1050" title="Data Connected to Power BI">
   <em>Data Connected to Power BI</em>
 </p>
 
@@ -131,7 +131,7 @@ Once the data source is connected we have to perform these cleaning and transfor
 This is because one of the customer's demand is to compare the profiles of a churners with the total subscribers.
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/query_editor.png" width="1050" title="Complete Subscriber base and churned subscriber base">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/query_editor.png" width="1050" title="Complete Subscriber base and churned subscriber base">
   <em>Complete Subscriber base and churned subscriber base</em>
 </p>
 
@@ -139,7 +139,7 @@ This is because one of the customer's demand is to compare the profiles of a chu
   In our dataset we have only 11 rows with missing values out 7043, so deleting those rows won't have any significant impact on our result. The blank rows are removed by choosing the remove empty option in data filtering.
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/missing_value.png" width="1050" title="Missing Value Treatment">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/missing_value.png" width="1050" title="Missing Value Treatment">
   <em>Missing Value Treatment</em>
 </p>
 
@@ -156,14 +156,14 @@ This can be done by the following steps:
 3. Paste the script required for modelling
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/pythonscript1.png" width="1050" title="Python Scripting">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/pythonscript1.png" width="1050" title="Python Scripting">
   <em>Python Scripting</em>
 </p>
 
 After running above script, dataset will be loaded . 
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/pythonresult1.png" width="1050" title="Loaded dataset">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/pythonresult1.png" width="1050" title="Loaded dataset">
   <em>Loaded dataset</em>
 </p>
 
@@ -172,14 +172,14 @@ The Python scripting can easily be done using pre-written code snippets by adjus
 Final Code that we will run :
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/python_script2.png" width="1050" title="Python Script for risk prediction">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/python_script2.png" width="1050" title="Python Script for risk prediction">
   <em>Python Script for risk prediction</em>
 </p>
 
 After running above script you will get below output :
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/python%20result2.png" width="1050" title="Prediction Data Loaded using Python">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/python%20result2.png" width="1050" title="Prediction Data Loaded using Python">
   <em>Prediction Data Loaded using Python</em>
 </p>
 
@@ -198,7 +198,7 @@ In order to get the Risk Category we use conditional column as
 The final table looks like this
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/prdicted_data.png" width="1050" title="Predicted Data ">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/prdicted_data.png" width="1050" title="Predicted Data ">
   <em>Predicted Data </em>
 </p>
 
@@ -207,7 +207,7 @@ The final table looks like this
 Once the dataset is loaded in Power BI Desktop, we have to create the schema diagram using the star schema mechanism. The Customer ID field of both the Transformed and Predicted table are connected on a one to one relationship as shown below.
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/schema_diagram.png" width="1050" title="Schema Diagram">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/schema_diagram.png" width="1050" title="Schema Diagram">
   <em>Schema Diagram</em>
 </p>
 
@@ -247,7 +247,7 @@ The background image as well as the layout customization plays a vital role in i
 The Home Page depicts all the dashboard names as well as buttons devised for easier page navigation. This helps the end user to get to the specific dashboard and get the required information.
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/homedb.png" width="1050" title="Home Dashboard ">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/homedb.png" width="1050" title="Home Dashboard ">
   <em>Home Dashboard </em>
 </p>
 
@@ -287,7 +287,7 @@ We have created a subdivision in our dashboard comparing certain characteristics
 
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/summarydb.png" width="1050" title="Churn Summary Dashboard">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/summarydb.png" width="1050" title="Churn Summary Dashboard">
   <em>Churn Summary Dashboard</em>
 </p>
 
@@ -308,7 +308,7 @@ The Churn Reason dashboard contains the categories of a churner and the revenue 
 >These are very important and business driving insights which will help the client to focus on the most critical subscriber base and also develop strategies to minimize their at-risk revenue.
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/reasondb.png" width="1050" title="Churn Reason and Categorization">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/reasondb.png" width="1050" title="Churn Reason and Categorization">
   <em>Churn Reason and Categorization</em>
 </p>
 
@@ -327,7 +327,7 @@ The most important aspect of a business analysis project is to find the root cau
 ... and many more such factors can be observed.
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/factordb.png" width="1050" title="Most Importand factors related to churn and the corresponding likelihood score">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/factordb.png" width="1050" title="Most Importand factors related to churn and the corresponding likelihood score">
   <em>Most Importand factors related to churn and the corresponding likelihood score</em>
 </p>
 
@@ -347,7 +347,7 @@ In our dashboard, Power BI has created five such segment.
 -   **Subscriber** in  these  **segment is 75.6% likely to churn**  which is **49% more**  than average  churn rate.
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/segmentdb.png" width="1050" title="Potential Churner characterstic: Segment 1">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/segmentdb.png" width="1050" title="Potential Churner characterstic: Segment 1">
   <em>Potential Churner characterstic: Segment 1</em>
 </p>
 
@@ -360,7 +360,7 @@ In our dashboard, Power BI has created five such segment.
 -   **Subscriber** in  these **segment is 59.7% likely to churn** which is **33% more** than average  churn rate.
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/segment2db.png" width="1050" title="Potential Churner characterstic: Segment 2">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/segment2db.png" width="1050" title="Potential Churner characterstic: Segment 2">
   <em>Potential Churner characterstic: Segment 2</em>
 </p>
 
@@ -373,7 +373,7 @@ In our dashboard, Power BI has created five such segment.
 -   **Subscriber** in  these **segment is 51.3% likely to churn** which is **25% more** than average  churn rate.
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/segment3db.png" width="1050" title="Potential Churner characterstic: Segment 3">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/segment3db.png" width="1050" title="Potential Churner characterstic: Segment 3">
   <em>Potential Churner characterstic: Segment 3</em>
 </p>
 
@@ -386,7 +386,7 @@ In our dashboard, Power BI has created five such segment.
 -   **Subscriber** in  these **segment is 46.2% likely to churn** which is **20% more** than average  churn rate.
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/segment4db.png" width="1050" title="Potential Churner characterstic: Segment 4">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/segment4db.png" width="1050" title="Potential Churner characterstic: Segment 4">
   <em>Potential Churner characterstic: Segment 4</em>
 </p>
 
@@ -400,7 +400,7 @@ In our dashboard, Power BI has created five such segment.
 
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/segment5db.png" width="1050" title="Potential Churner characterstic: Segment 5">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/segment5db.png" width="1050" title="Potential Churner characterstic: Segment 5">
   <em>Potential Churner characterstic: Segment 5</em>
 </p>
 
@@ -419,7 +419,7 @@ The Customer Details dashboard acts as a Customer Profile portal with all the ne
 The dashboard also contains the  **Risk Category**,  **Total revenue**  and  **Churn index**(percentage probability of churning)
 
 <p align="center">
-  <img src="https://github.com/ankitkash101/Customer-Churn-Analysis/blob/main/profiledb.png" width="1050" title="Customer Profile">
+  <img src="https://github.com/Somya1911/Customer-Churn/blob/main/profiledb.png" width="1050" title="Customer Profile">
   <em>Customer Profile</em>
 </p>
 
